@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("./assests/img/Banner.png");
+  background-size: cover;
+}
+#chat-symbol {
+  bottom: 2vh;
+  right: 2vw;
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#chat-symbol img {
+  width: 50%;
+}
+#chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 9vh;
+  right: 2vw;
+  width: 25vw;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#chat-header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+#chat-body {
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+}
+#chat-input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#chat-send-btn {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.startMessage {
+  display: none;
+}
+#chatInputDiv {
+  display: none;
+}
